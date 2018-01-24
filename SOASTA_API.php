@@ -11,7 +11,7 @@ $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, "https://mpulse.soasta.com/concerto/services/rest/RepositoryService/v1/Tokens");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"userName\":\"david\", \"password\":\"Vodacom082\"}");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"userName\":\"user123\", \"password\":\"Password123\"}");
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
 
 $headers = array();
