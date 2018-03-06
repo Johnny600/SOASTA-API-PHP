@@ -17,7 +17,7 @@ Where $user, is your username, and $pass, is your password.
 
 Note: Users who belong to multiple tenants and wish to obtain a security token for a tenant that is not their default, can add the "tenant” key to the JSON body; for example, “tenant”: “My Tenant”.
 
-Will get the response like this: {"token":"da7be4d72030656559f3e41a98924a6b2a544730"}
+Will get the response like this: {"token":"da7be"}
 
 <b>REST API URLs<b/>
 
